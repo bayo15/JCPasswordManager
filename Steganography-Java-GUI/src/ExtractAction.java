@@ -24,7 +24,7 @@ public class ExtractAction implements WizardButtonListener {
         wf.addWizPanel(sof);
 
 
-        ep = new EnterPassword("3. Enter password");
+        ep = new EnterPassword("3. Token communication");  // modified by TB
         wf.addWizPanel(ep);
 
         vo = new VerifyOptions("4. Verify Options");

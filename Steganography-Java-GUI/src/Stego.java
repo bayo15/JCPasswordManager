@@ -49,7 +49,7 @@ class Stego {
    //System.out.println("Sound File " +sndFile);
    //System.out.println("Text File " +outFile);
    //System.out.println("op  File " + outFile);
-   System.out.println("Pwd " +pwd);
+   //System.out.println("Pwd " +pwd);  // modified by TB
   }
   
   //--------------------------------------------

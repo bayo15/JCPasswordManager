@@ -27,7 +27,7 @@ public class ExtractProcess {
         	System.out.println("Extracting....");
         	System.out.println("Audio File" + eo.getInputFile().getAbsolutePath());
         	System.out.println("File" + embFileName);
-        	System.out.println("PWD" + password);
+        	//System.out.println("PWD" + password); modifed by TB
         	
         	Stego unveil = new Stego(eo.getInputFile().getAbsolutePath(),embFileName,password.toCharArray());
 			if (!unveil.decode())
